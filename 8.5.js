@@ -7,7 +7,7 @@ const book1 = {
 function iterObject(obj) {
     const newObj = {};
     for (const key in obj) {
-        newObj[key] = obj[key];
+        newObj[obj[key]] = key;
     }
     return newObj;
 }
