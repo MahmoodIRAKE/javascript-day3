@@ -59,7 +59,7 @@ console.log(vowelCount("mahmood"));
 
 function capitalize(str) {
 
-    return str.split('').map(function(item, index) {
+    return str.toLowerCase().split('').map(function(item, index) {
         if (item >= 'a' && item <= 'z') {
             return String.fromCharCode(item.charCodeAt(0) - 'a'.charCodeAt(0) + 'A'.charCodeAt(0));
         }
