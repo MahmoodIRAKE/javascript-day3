@@ -21,7 +21,9 @@ function getCandy(candyStore, id) {
 console.log(getCandy(candyStore, "5hd7y"));
 
 function getPrice(candyStore, id) {
-    return candyStore.candies.find(item => item.id === id).price;
+    let result = candyStore.candies.find(item => item.id === id)
+    console.log(result);
+    return result.price;
 }
 console.log(getPrice(candyStore, "5hd7y"));
 
