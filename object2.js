@@ -11,8 +11,6 @@ const shop = {
             shoes: [],
         }
     },
-
-
 }
 
 //function that add on gaming pc
